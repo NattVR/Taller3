@@ -25,4 +25,4 @@ if __name__ == "__main__":
     punto_1.mostrar()
     punto_compara = (4, 2)
     distancia = punto_1.calcular_distancia(punto_compara)
-    print(f"La distancia entre el nuevo punto y el punto a comparar {punto_compara} es {distancia}")
+    print(f"La distancia entre el nuevo punto y el punto a comparar {punto_compara} es {round(distancia,2)}")
